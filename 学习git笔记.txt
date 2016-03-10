@@ -1,0 +1,16 @@
+git使用步骤：
+添加远程库，将本地库上传至远程库
+	关联：使用git remote add origin git@github.com:wulfiyee/learngit.git
+	推送分支内容： 使用git push -u origin master
+	这样就把内容推送到远程了。
+将远程库克隆至本地
+	git clone git@github.com:wulfiyee/github2local.git
+	这样就把远程的克隆到了本地。
+
+创建与合并分支：
+	查看所有分支：git branch
+	创建分支： git branch <name>
+	切换分支： git checkout <name>
+	合并分支： git merge <name>
+	删除分支： git branch -d <name>
+
